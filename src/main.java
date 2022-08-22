@@ -6,6 +6,14 @@ public class main {
                 .withBudget(180L)
                 .withDiscountRate(2L).build();
         System.out.println(builderPattern.getName());
+        //factory pattern
+        ComputerFactory computerFactory = new ComputerFactory();
+        Computer computer = computerFactory.getComputer("Laptop");
+        computer.compute();
+        Computer computer2 = computerFactory.getComputer("phone");
+        computer2.compute();
+        Computer computer3 = computerFactory.getComputer("SmartTV");
+        computer3.compute();
     }
 
 }
