@@ -1,4 +1,4 @@
-package SingletonPattern;
+package Creational_patterns.SingletonPattern;
 
 public class SingletonLogger {
     private static SingletonLogger instance = new SingletonLogger();

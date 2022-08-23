@@ -1,7 +1,5 @@
-package AbestractFactory;
+package Creational_patterns.AbestractFactory;
 
-
-import factory_pattern.Computer;
 
 public class PortableComputer extends AbstractFactory {
 

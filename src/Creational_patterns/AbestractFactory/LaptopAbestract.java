@@ -1,6 +1,4 @@
-package AbestractFactory;
-
-import factory_pattern.Computer;
+package Creational_patterns.AbestractFactory;
 
 //factory pattern
 public class LaptopAbestract implements ComputerAbestract {

@@ -1,4 +1,4 @@
-package PrototypePattern;
+package Creational_patterns.ObjectPool;
 
 public class Components {
     private String name;

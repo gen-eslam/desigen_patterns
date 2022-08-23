@@ -1,7 +1,7 @@
-import AbestractFactory.AbstractFactory;
-import AbestractFactory.FactoryProducer;
-import factory_pattern.Computer;
-import factory_pattern.ComputerFactory;
+package Creational_patterns;
+
+import Creational_patterns.factory_pattern.Computer;
+import Creational_patterns.factory_pattern.ComputerFactory;
 
 public class main {
     public static void main(String[] arg) {

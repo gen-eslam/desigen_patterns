@@ -1,4 +1,4 @@
-package factory_pattern;
+package Creational_patterns.factory_pattern;
 
 //factory Pattern
 public class ComputerFactory {

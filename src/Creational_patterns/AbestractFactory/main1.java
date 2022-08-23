@@ -1,4 +1,4 @@
-package AbestractFactory;
+package Creational_patterns.AbestractFactory;
 
 public class main1 {
     public static void main(String []arg){

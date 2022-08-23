@@ -1,4 +1,4 @@
-package ObjectPool;
+package Creational_patterns.ObjectPool;
 
 public class App {
     public static void main(String[] args) {
