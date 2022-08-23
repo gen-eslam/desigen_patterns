@@ -4,6 +4,6 @@ package factory_pattern;
 public class SmartTV implements Computer {
     @Override
     public void compute() {
-        System.out.println("factory_pattern.SmartTV computes");
+        System.out.println("SmartTV computes");
     }
 }

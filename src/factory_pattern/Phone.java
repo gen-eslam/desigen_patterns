@@ -4,6 +4,6 @@ package factory_pattern;
 public class Phone implements Computer {
     @Override
     public void compute() {
-        System.out.println("factory_pattern.Phone computes");
+        System.out.println("Phone computes");
     }
 }

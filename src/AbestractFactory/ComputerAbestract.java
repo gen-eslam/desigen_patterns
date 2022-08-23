@@ -1,7 +1,7 @@
 package AbestractFactory;
 
 //FactoryPattern
-public interface Computer {
+public interface ComputerAbestract {
     void compute();
 
 }

@@ -3,9 +3,9 @@ package AbestractFactory;
 import factory_pattern.Computer;
 
 // factory pattern
-public class SmartTV implements Computer {
+public class SmartTVAbestract implements ComputerAbestract {
     @Override
     public void compute() {
-        System.out.println("factory_pattern.SmartTV computes");
+        System.out.println("SmartTV");
     }
 }

@@ -4,7 +4,7 @@ package factory_pattern;
 public class Laptop implements Computer {
     @Override
     public void compute() {
-        System.out.println("factory_pattern.Laptop computes");
+        System.out.println("Laptop computes");
 
     }
 }

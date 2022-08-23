@@ -6,13 +6,13 @@ import factory_pattern.Computer;
 public class PortableComputer extends AbstractFactory {
 
     @Override
-    Computer getComputer(String computerType) {
+    public ComputerAbestract getComputer1(String computerType) {
         if(computerType.equalsIgnoreCase("Laptop"))
-            return new Laptop();
+            return new LaptopAbestract();
         else if(computerType.equalsIgnoreCase("Phone"))
-            return new Phone();
+            return new PhoneAbestract();
         else if (computerType.equalsIgnoreCase("SmartTV"))
-            return new SmartTV();
+            return new SmartTVAbestract();
         return null;
     }
 }

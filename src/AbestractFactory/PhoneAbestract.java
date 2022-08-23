@@ -3,9 +3,9 @@ package AbestractFactory;
 import factory_pattern.Computer;
 
 //factory pattern
-public class Phone implements Computer {
+public class PhoneAbestract implements ComputerAbestract {
     @Override
     public void compute() {
-        System.out.println("factory_pattern.Phone computes");
+        System.out.println("Phone");
     }
 }
