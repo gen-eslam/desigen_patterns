@@ -1,5 +1,5 @@
 package Creational_patterns.SingletonPattern;
-
+// initialize when you open the program
 public class SingletonLogger {
     private static SingletonLogger instance = new SingletonLogger();
     private SingletonLogger(){}
@@ -14,34 +14,3 @@ public class SingletonLogger {
         System.out.println("Stop message is logged");
     }
 }
-/*      lazy initialize
-* //=>>>>> "memory efficient"
-*
-*   private static SingletonLogger instance;
-*   public static synchronized  SingletonLogger getInstance() {
-*        if(instance ==null){
-*             instance = new SingletonLogger();
-*           }
-        return instance;
-         }
-         public void logMessageStart(){
-        System.out.println("Start message is logged");
-    }
-    public void logMessageStop(){
-        System.out.println("Stop message is logged");
-    }
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-* */

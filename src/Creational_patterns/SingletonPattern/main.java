@@ -6,6 +6,9 @@ public class main {
         SingletonLogger singletonLogger = SingletonLogger.getInstance();
         singletonLogger.logMessageStart();
         singletonLogger.logMessageStop();
+        SingletonPatternLazyInitiaize instance = SingletonPatternLazyInitiaize.getInstance();
+        instance.logMessageStart();
+        instance.logMessageStop();
 
     }
 }
