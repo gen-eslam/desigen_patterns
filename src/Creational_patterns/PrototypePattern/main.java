@@ -15,6 +15,7 @@ public class main {
 
         Robot robot = new Robot(1, features, components);
         Robot anotherRobot = robot.clone();
+        Robot anotherRobot2 = robot.deapClone();
 
         System.out.println(robot.getID());
         System.out.println(robot.getComponents());
@@ -23,6 +24,11 @@ public class main {
         System.out.println(anotherRobot.getID());
         System.out.println(anotherRobot.getComponents());
         System.out.println(anotherRobot.getFeatures());
+
+
+        System.out.println(anotherRobot2.getID());
+        System.out.println(anotherRobot2.getComponents());
+        System.out.println(anotherRobot2.getFeatures());
 
     }
 }

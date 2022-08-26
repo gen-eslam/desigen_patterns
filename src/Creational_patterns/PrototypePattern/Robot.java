@@ -37,6 +37,10 @@ public class Robot implements Cloneable {
     public void setComponents(Components components) {
         this.components = components;
     }
+    public Robot deapClone(){
+     Robot robot =new Robot(this.ID,this.features,this.components);
+     return robot;
+    }
 
     public Robot clone(){
         try {
